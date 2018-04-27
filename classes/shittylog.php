@@ -97,7 +97,7 @@ class ShittyLog {
 
 
 new ShittyLog();
-$mainPage = 'http://shittylog.com';
+$mainPage = 'https://shittylog.com';
 $userEndpoint = define('USER_ENDPOINT', $mainPage.'?u='.USER_FOLDER.'&accessKey='.USER_ACCESS_KEY);
 $userLogFile = define('USER_LOG_FILE', $mainPage .'/'.MAIN_FOLDER.USER_FOLDER.'/'.USER_ACCESS_KEY.'.txt');
 ?>
