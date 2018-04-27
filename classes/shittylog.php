@@ -87,10 +87,11 @@ class ShittyLog {
     $deleteContent = isset($_REQUEST['del']);
     if ($deleteContent) {
       file_put_contents($logFileExactPath, $logData ."\n");
+      echo('log & delete older success!');exit;
     } else {
       file_put_contents($logFileExactPath, $logData ."\n", FILE_APPEND);
+      echo('log success!');exit;
     }
-    echo('log success!');exit;
   }
 }
 
