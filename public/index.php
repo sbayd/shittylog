@@ -77,6 +77,7 @@ function shittyLog() {
             </div>
          </div>
       </div>
+      <p>Created by Berkay Aydin, <a href="https://sbaydin.com" target="_blank">https://sbaydin.com</a></p>
       <!-- End Document
          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
    </body>
