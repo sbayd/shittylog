@@ -40,6 +40,10 @@
                         <td style="width: %25;">Your Log Link</td>
                         <td><a target="_blank" href="<?php echo(USER_LOG_FILE); ?>"><?php echo(USER_LOG_FILE); ?></a></td>
                      </tr>
+                     <tr>
+                        <td style="min-width: %25;">Delete Existing Log Data</td>
+                        <td><a target="_blank" href="<?php echo(USER_ENDPOINT."&logData=sampleLogData"); ?>"><?php echo(USER_ENDPOINT."&logData=deletedAllLogData&del"); ?></a></td>
+                     </tr>
                   </tbody>
                </table>
                <p>I have created a simple javascript request function for your log purposes! You are free to use it!</p>

@@ -84,7 +84,12 @@ class ShittyLog {
 
   function logToUserFile($logData) {
     $logFileExactPath = './'.MAIN_FOLDER.USER_FOLDER.'/'.USER_ACCESS_KEY.'.txt';
-    file_put_contents($logFileExactPath, $logData ."\n", FILE_APPEND);
+    $deleteContent = isset($_REQUEST['del']);
+    if ($deleteContent) {
+      file_put_contents($logFileExactPath, $logData ."\n");
+    } else {
+      file_put_contents($logFileExactPath, $logData ."\n", FILE_APPEND);
+    }
     echo('log success!');exit;
   }
 }
