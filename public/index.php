@@ -30,6 +30,7 @@
             <div class="eleven column" style="margin-top: 5%">
                <h4>Hey Lazy Developer!</h4>
                <p>ShittyLog is a very simple log mechanism! You just need to make a http request to your link. After that you can see the log file as text! </p>
+               <p>These links are special for you! Don't worry about it. Also all logs will be deleted weekly.</p>
                <table class="u-full-width">
                   <tbody>
                      <tr>
@@ -80,8 +81,9 @@ function shittyLog() {
                   <a href="<?php echo(USER_LOG_FILE); ?>"><?php echo(USER_LOG_FILE); ?></a>
             </div>
          </div>
+               <p>All files located publicly on <a href="https://github.com/sbayd/shittylog/" target="_blank">GitHub</a></p>
+               <p>Created by Berkay Aydin, <a href="https://sbaydin.com" target="_blank">https://sbaydin.com</a></p>
       </div>
-      <p>Created by Berkay Aydin, <a href="https://sbaydin.com" target="_blank">https://sbaydin.com</a></p>
       <!-- End Document
          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
    </body>
