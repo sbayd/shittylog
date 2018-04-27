@@ -42,7 +42,7 @@
                      </tr>
                      <tr>
                         <td style="min-width: %25;">Delete Existing Log Data</td>
-                        <td><a target="_blank" href="<?php echo(USER_ENDPOINT."&logData=sampleLogData"); ?>"><?php echo(USER_ENDPOINT."&logData=deletedAllLogData&del"); ?></a></td>
+                        <td><a target="_blank" href="<?php echo(USER_ENDPOINT."&logData=sampleLogData&del"); ?>"><?php echo(USER_ENDPOINT."&logData=deletedAllLogData&del"); ?></a></td>
                      </tr>
                   </tbody>
                </table>
