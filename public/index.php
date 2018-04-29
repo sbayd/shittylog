@@ -49,7 +49,7 @@
                      </tr>
                      <tr>
                         <td>Data Deletion</td>
-                        <td><a target="_blank" href="<?php echo(USER_ENDPOINT."&logData=sampleLogData&del"); ?>">Click here to all existing logs!</a></td>
+                        <td><a target="_blank" href="<?php echo(USER_ENDPOINT."&logData=sampleLogData&del"); ?>">Click here to delete all existing logs!</a></td>
                      </tr>
                   </tbody>
                </table>
